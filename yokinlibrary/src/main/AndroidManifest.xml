@@ -6,7 +6,7 @@
         android:supportsRtl="true">
         <!--解决Glide加载图片背景偏绿-->
         <meta-data
-            android:name="com.lining.yokinjar.GlideConfiguration"
+            android:name="com.lining.yokinlibrary.utils.GlideConfiguration"
             android:value="GlideModule" />
     </application>
 
