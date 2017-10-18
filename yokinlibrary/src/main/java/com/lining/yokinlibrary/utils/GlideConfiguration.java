@@ -1,5 +1,4 @@
-package com.lining.yokinjar;
-
+package com.lining.yokinlibrary.utils;
 
 import android.content.Context;
 
