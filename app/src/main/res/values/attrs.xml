@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RatioImageView">
+        <attr name="ratio" format="string" />
+        <attr name="adjustWidth" format="boolean"/>
+        <attr name="roundRadius" format="dimension"/>
+        <attr name="roundRadiuX" format="dimension"/>
+        <attr name="roundRadiuY" format="dimension"/>
+    </declare-styleable>
+</resources>
