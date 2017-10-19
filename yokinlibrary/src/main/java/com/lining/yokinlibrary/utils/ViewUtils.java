@@ -119,12 +119,12 @@ public class ViewUtils {
     public static StateListDrawable getStateDrawable(Context context, int normal, int active, int disable) {
         StateListDrawable states = new StateListDrawable();
         if(active != -1) {
-            states.addState(new int[]{16842919}, context.getResources().getDrawable(active));
-            states.addState(new int[]{16842908}, context.getResources().getDrawable(active));
+            states.addState(new int[]{android.R.attr.state_pressed}, context.getResources().getDrawable(active));
+            states.addState(new int[]{android.R.attr.state_focused}, context.getResources().getDrawable(active));
         }
 
         if(disable != -1) {
-            states.addState(new int[]{-16842910}, context.getResources().getDrawable(disable));
+            states.addState(new int[]{-android.R.attr.state_enabled}, context.getResources().getDrawable(disable));
         }
 
         if(normal != -1) {
