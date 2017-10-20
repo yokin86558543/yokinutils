@@ -1,17 +1,18 @@
 package com.lining.yokinjar;
 
 import android.content.Intent;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.lining.yokinjar.ErJi.ErJiDemo;
 import com.lining.yokinlibrary.utils.ActivityCache;
 import com.lining.yokinlibrary.utils.CL;
 
 public class MainActivity extends AppCompatActivity {
-
+    private String TAG=MainActivity.class.getSimpleName();
     TextView click;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,9 +31,11 @@ public class MainActivity extends AppCompatActivity {
                 //startActivity(new Intent(MainActivity.this,ErJiDemo.class));
                 //startActivity(new Intent(MainActivity.this,CalendarDemo.class));
                 startActivity(new Intent(MainActivity.this,Demo.class));
+
             }
         });
     }
+
 
     @Override
     protected void onDestroy() {

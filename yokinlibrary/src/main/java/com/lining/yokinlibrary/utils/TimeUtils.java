@@ -1,4 +1,4 @@
-package com.lining.yokinjar;
+package com.lining.yokinlibrary.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
